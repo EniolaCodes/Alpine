@@ -1,0 +1,213 @@
+
+:root{
+    --primary-color: #7e7e7e;
+    --background: #f3f3f3;
+
+
+
+}
+
+/* =========Global Styles========= */
+*,
+::after,
+::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 3rem;
+}
+main{
+    background: var(--background);
+}
+img{
+    display: block;
+   width: 450px;
+   height: 200px;
+} 
+.gallery-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 40px;
+    height: 40px; 
+} 
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+p{
+    margin-bottom: 1.25rem;
+    color: var(--primary-color);
+}
+
+h2{
+    margin-bottom: 0.5rem;
+}
+/* ============Global class========= */
+.btn{
+    background: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: 1rem 1.7rem;
+    border:1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.container{
+    padding: 4rem 3rem;
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.negro{
+    margin-bottom: 3rem;
+}
+
+/* ==========header======= */
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10rem;   
+}
+
+.lines {
+    position: relative;
+    height: 100px;
+}
+
+.line {
+    position: absolute;
+    background-color: #000000;
+    height: 5px;
+    width: 100px;
+}
+
+
+.line1 {
+    top: 30px;
+    left: 20px;
+    width: 60px;
+   
+}
+
+.line2 {
+    top: 40px;
+    left: 20px;
+    width: 40px;
+
+}
+
+.line3 {
+    top: 50px;
+    left: 20px;
+    width: 20px;
+   
+}
+
+.navList{
+    display:flex;
+    align-items: center;
+}
+.navList > li{
+    list-style: none;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.navList > li + li{
+    margin-left: 1.5rem;
+}
+
+
+.lines > div{
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* =============section========== */
+.section-words .words{
+    max-width: 600px;
+    text-align: left;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-img{
+    margin-top: 5rem;
+}
+.precio{
+    text-decoration: line-through;
+}
+.offer{
+    margin-bottom: 4rem;
+}
+.detail{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+.imagen{
+    margin-top: 5rem;
+
+}
+
+
+/* =======article====== */
+.heading{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    color: var(--primary-color);
+    margin-bottom: 6rem;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--background);
+    border: 1px solid transparent;
+    margin-bottom: 3rem;
+    width: calc(33.33% - 3rem);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    
+}
+
+.gallery{
+    width: 85vw;
+    margin: 0 auto;
+
+}
+.photo-logo{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    
+}
