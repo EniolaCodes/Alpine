@@ -69,6 +69,7 @@ h2{
     width: 90vw;
     margin: 0 auto;
     margin-bottom: 6rem;
+    max-width: 1200px;
 }
 
 .negro{
@@ -172,7 +173,6 @@ margin-bottom: 10rem;
 .heading{
     display: flex;
     justify-content: center;
-    /* gap:3rem; */
     color: var(--primary-color);
     margin-bottom: 6rem;
 }
