@@ -172,7 +172,7 @@ margin-bottom: 10rem;
 .heading{
     display: flex;
     justify-content: center;
-    gap:3rem;
+    /* gap:3rem; */
     color: var(--primary-color);
     margin-bottom: 6rem;
 }
